@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="column is-half hero">
       <div className="hero-body">
-        <h1 className="title" width="526" height="104">
+        <h1 className="title mb-6 " width="526" height="104">
           You have a vision ! <br />
           we bring it to life
         </h1>
