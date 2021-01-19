@@ -1,0 +1,106 @@
+* {
+  font-family: "Roboto";
+}
+
+.navbar-end a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6d6e6f;
+}
+.navbar-end a:hover {
+  background-color: transparent;
+  color: #6d6e6f;
+}
+.send-btn {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  background: linear-gradient(123.74deg, #33fab3 -17.91%, #05a3f7 136.82%);
+  border-radius: 5px;
+  width: 104px;
+  height: 42px;
+}
+.send-btn:hover {
+  color: white;
+}
+
+.input-style {
+  background: #ffffff;
+  border: 0.2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 #eeeeee;
+  color: #6d6e6f;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.input-style::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6d6e6f;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  color: #58595b;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  color: #58595b;
+}
+
+textarea.input-style {
+  height: 20px;
+  width: 442px;
+}
+
+.hold {
+  position: relative;
+  width: 442px;
+  height: 46px;
+}
+
+input[required="required"]:valid + .req_placeholder {
+  display: none;
+}
+
+.req_placeholder {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: #6d6e6f;
+  padding-top: 13px;
+  padding-left: 16px;
+}
+
+.req_placeholder span {
+  color: #6a85fa;
+  font-size: 16px;
+  text-align: center;
+}
+
+.inputtest {
+  width: 442px;
+  height: 46px;
+  background: #ffffff;
+  border: 0.2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 #eeeeee;
+}
+.error {
+  color: red;
+}
