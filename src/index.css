@@ -4,12 +4,15 @@
 }
 
 .navbar-end a {
-  font-family: "Roboto";
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 21px;
   color: #6d6e6f;
 }
+.navbar-end a:active {
+  background-color:transparent;
+}
+
 .navbar-end a:hover {
   background-color: transparent;
   color: #6d6e6f;
@@ -34,8 +37,6 @@
   border-radius: 5px;
   box-shadow: 0 0 8px 0 #eeeeee;
   color: #6d6e6f;
-
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -44,7 +45,6 @@
 .input-style::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #6d6e6f;
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -65,7 +65,7 @@
 }
 
 textarea.input-style {
-  height: 20px;
+  height: 194px;
   width: 442px;
 }
 

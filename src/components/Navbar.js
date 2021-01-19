@@ -21,10 +21,10 @@ const Navbar = () => {
             <a href="#" className="navbar-item">
               Services
             </a>
-            <a href="#" className="navbar-item">
+            <a href="#" className="navbar-item ml-5">
               Work
             </a>
-            <a href="#" className="navbar-item">
+            <a href="#" className="navbar-item ml-5">
               Company
             </a>
           </div>
